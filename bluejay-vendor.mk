@@ -482,6 +482,7 @@ PRODUCT_PACKAGES += \
     google-ril \
     oemrilhook \
     vendor.google.edgetpu_app_service@1.0-service.xml \
+    oem-iptables-init \
     vendor.google.edgetpu_app_service@1.0-service
 
 PRODUCT_PACKAGES += \
