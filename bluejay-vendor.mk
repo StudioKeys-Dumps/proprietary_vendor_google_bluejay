@@ -2276,7 +2276,7 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(BLISS_BUILD_VARIANT),gapps)
 PRODUCT_PACKAGES += \
-    Velvet
+    PixelVelvet
 
 PRODUCT_COPY_FILES += \
     vendor/google/bluejay/proprietary/product/etc/permissions/velvet_app-privapp-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/velvet_app-privapp-permissions.xml
