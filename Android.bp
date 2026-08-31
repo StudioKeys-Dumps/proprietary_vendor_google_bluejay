@@ -440,6 +440,20 @@ android_app_import {
 }
 
 android_app_import {
+    name: "Velvet",
+    owner: "google",
+    apk: "proprietary/product/priv-app/Velvet/Velvet.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+    overrides: ["QuickSearchBox"],
+}
+
+android_app_import {
     name: "OemRilHookService",
     owner: "google",
     apk: "proprietary/system_ext/app/OemRilHookService/OemRilHookService.apk",
